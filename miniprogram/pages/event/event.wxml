@@ -1,0 +1,19 @@
+<view class="imageContainer" wx:if='{{avatarUrl}}'>
+  <image src='{{avatarUrl}}' class="avatarimg" mode="widthFix"></image>
+  <!-- <text class="nickname">{{nickname}}</text> -->
+</view>
+
+<view class="headerInfo">
+    <text>出生于{{month}}月{{day}}日</text>
+    <text class="history-desc">历史上的今天发生了</text>
+</view>
+
+<view class="dayinfo" wx:for="{{result}}">
+  <view class="year">{{item.year}}</view>
+  <text class="line" decode="{{true}}">&nbsp;</text>
+  <view class="title">{{item.title}}</view>
+</view>
+<view class="imageContainer">
+  <image src='/images/QRcode.png' class="QRcodeimg" mode="widthFix"></image>
+  <view class="code-desc">此门中</view>
+</view>

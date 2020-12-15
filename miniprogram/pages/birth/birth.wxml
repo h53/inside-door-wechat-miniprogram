@@ -1,0 +1,6 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="desc">请输入您的生日</view>
+<view class="container">
+  <input placeholder="month" bindinput="monthInput" placeholder-class="placeholderStyle" value="{{month}}"/><input placeholder="day" placeholder-class="placeholderStyle" bindinput="dayInput" value="{{day}}"/>
+</view>
+<button open-type="getUserInfo" bindtap="btnclick">查询</button>

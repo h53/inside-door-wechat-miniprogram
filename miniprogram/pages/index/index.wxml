@@ -1,0 +1,42 @@
+<view class="greetContainer">
+  <text class='greeting'>{{greetings}}</text>
+</view>
+
+<view class="descContainer">
+  <text class="greet-desc">{{upperDesc}}</text>
+</view>
+
+<view class="itemWrapper" wx:for='{{showList}}'>
+  <!-- 功能 -->
+  <view class="funcWrapper" wx:if='{{item.type == 1}}' bindtap="onTapBirth">
+    <view class="funcContainer">
+      <text class="func">{{funcList[0]}}</text>
+      <!-- <text class="more">></text> -->
+    </view>
+    <!-- <view class="detailsContainer">
+      <text class="details">hello 这个是详细内容</text>
+    </view>
+    <view class="commentContainer">
+      <text>comment</text>
+    </view> -->
+  </view>
+  
+  <!-- history -->
+  <view class="eventWrapper">
+    <view class="eventContainer">
+      <text class="event">{{item.history.year}}-{{item.history.title}}</text>
+    </view>
+    <view class="detailsContainer">
+      <text class="details">hello 这个是详细内容</text>
+    </view>
+    <view class="commentContainer">
+      <text>comment</text>
+    </view>
+  </view>
+
+  <view class="adsWrapper">
+  <!-- ads -->
+  </view>
+</view>
+
+<view class="endline" wx:if='{{}}'>-- end --</view>

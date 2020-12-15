@@ -1,0 +1,68 @@
+.dayinfo{
+  display: flex;
+  justify-content: center;
+}
+
+.year{
+  font-size: 23rpx;
+  color: rgba(0, 0, 0, 0.397);
+  font-family: sans-serif;
+  line-height: 60rpx;
+}
+
+
+.title{
+  font-size: 23rpx;
+  font-family: sans-serif;
+  line-height: 60rpx;
+}
+
+.imageContainer{
+  padding-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23rpx;
+  font-family: sans-serif;
+  line-height: 60rpx;
+}
+
+.avatarimg{
+  align-items: center;
+  width: 132rpx;
+}
+
+.headerInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23rpx;
+  font-family: sans-serif;
+  line-height: 60rpx;
+  /* color: rgb(175, 7, 7); */
+  padding-top: 30rpx;
+  /* opacity: 0.8; */
+}
+
+/* .history-desc{
+  color: rgb(175, 7, 7);
+} */
+
+.nickname{
+  color:rgba(0, 0, 0, 0.397)
+}
+
+.QRcodeimg{
+  width: 132rpx;
+  padding-bottom: 8rpx;
+}
+
+.code-desc{
+  font-size: 18rpx;
+    margin-bottom: 40rpx;
+}
+
+/* .savecanvas{
+  position: absolute;
+  top: -10000rpx;
+} */

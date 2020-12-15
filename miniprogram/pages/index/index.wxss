@@ -1,0 +1,98 @@
+.greeting{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 72rpx;
+  /* color: rgb(175, 7, 7); */
+  opacity: 0.8;
+}
+
+.greetContainer{
+  margin-top: 60rpx;
+  margin-left: 60rpx;
+}
+
+.descContainer{
+  margin-top: 20rpx;
+  margin-left: 64rpx;
+  margin-bottom: 30rpx;
+}
+
+.greet-desc{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25rpx;
+  color: rgb(175, 7, 7);
+  opacity: 0.6;
+}
+
+.eventWrapper{
+  /* border-bottom-left-radius: 5px; */
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 45rpx;
+  margin-left: 60rpx;
+  width:630rpx;
+  background:#CCCCCC;
+}
+
+.event{
+  overflow-wrap: break-word;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30rpx;
+  line-height: 45rpx;
+}
+
+.eventContainer{
+  padding: 30rpx;
+}
+
+.detailsContainer{
+  height: 0;
+  overflow: hidden;
+} 
+
+.commentContainer{
+  height: 0;
+  overflow: hidden;
+}
+
+.funcWrapper{
+  display: fiex;
+  justify-content: space-between;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 45rpx;
+  margin-left: 60rpx;
+  width:630rpx;
+  background:#444141;
+}
+
+.func{
+  overflow-wrap: break-word;
+  /* display: inline-block; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30rpx;
+  color: #fff;
+  line-height: 45rpx;
+}
+
+/* .more{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30rpx;
+  padding-left: 220rpx;
+  color: #fff;
+  line-height: 45rpx;
+
+} */
+
+.funcContainer{
+  padding: 30rpx;
+}
+
+.endline{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 42rpx;
+}
