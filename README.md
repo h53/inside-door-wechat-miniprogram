@@ -12,6 +12,8 @@ git clone https://github.com/h53/inside-door-wechat-miniprogram.git
 * 将 `cloudfunctions/index.js` 中 `env` 修改为自己的云主机环境 id
 * 在云开发控制台添加 `history` 集合，并导入 `database` 文件夹下的 json 文件
 * 创建并部署 `cloudfunctions`
-* 编译
+* 编译  
+
+*ps：也可以直接请求 [这里](https://github.com/h53/inside-door-restful-api) 的接口*
 
 ![QRcode](https://raw.githubusercontent.com/h53/inside-door-wechat-miniprogram/master/miniprogram/images/QRcode.jpg)
